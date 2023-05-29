@@ -24,58 +24,78 @@
 
 <body><!-- Add your site or application content here -->
   <header>
-    <div>
+    <div class="content-wrapper">
       <a href="#"><img src="img\unpluggedlogo.png" alt="unplugged logo"></a>
-      <div>
-       
-      </div>
+      <div class="header-divider"></div>
       <nav>
         <ul>
-          <li><a href="faq/index.html" rel="noopener">FAQ</a></li>
-          <li><a href="about/index.html" rel="noopener">About</a></li>
+          <li><a href="faq/index.html">FAQ</a></li>
+          <li><a href="about/index.html">About</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
   <main>
-    <section>
-      <div class="top-section">
+    <section class="hero-area">
+      <div class="content-wrapper">
         <img class="hero-img" src="img\unplugged-retreat.jpg" alt="woman outstide">
         <h1>Retreat from the desk, return refreshed.</h1>
       </div>
     </section>
+
     <aside>
-      <div class="newsletter-signup">
-        <h3>Want to join the next retreat?</h3>
-        <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-        <h3>Find out more</h3>
-        <input type="text" name="name" value="email address">
-        <input type="button" value="Download Itinerary">
+      <div class="content-wrapper">
+        <div class="form-discription">
+          <h3>Want to join the next retreat?</h3>
+          <p>
+            Find out when we are holding our next retreat and how your company or team can sign up!
+          </p>
+        </div>
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="text" name="name" value="email address">
+          <input type="button" value="Download Itinerary">
+        </div>
       </div>
     </aside>
+
   </main>
+
   <footer>
     <div class="content-wrapper">
       <div class="footer-contact">
         <div class="contact">
           <h4>Contact</h4>
           <div>
-            <address>555-555-5555 hello2unplugged.com</address>
+            <address>
+              <p>555-555-5555<br>
+                hello2unplugged.com
+              </p>
+            </address>
           </div>
-          <h4>Social</h4>
-          <p>facebook</p>
-          <p>twitter</p>
-          <p>instagram</p>
+          <div class="social">
+            <h4>Social</h4>
+            <div class="social-icons">
+              <p>
+                <a href="https://www.facebook.com/Skillcrush/" target="_blank"></a>
+              </p>
+              <p>
+                <a href="https://twitter.com/Skillcrush" target="_blank"></a>
+              </p>
+              <p>
+                <a href="https://www.instagram.com/skillcrush/" target="_blank"></a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="social">
-          <p><a href="https://www.facebook.com/yoursite" target="_blank" rel="noopener"></a></p>
-          <!--other social links here-->
-        </div>
+        
       </div><!--footer content ends-->
-      <div class="copyright">
-
-      </div>
+      
     </div><!--footer content-wrapper ends-->
+    <div class="copyright">
+      <p>Copyright 202X | Unplugged</p>
+    </div>
   </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
