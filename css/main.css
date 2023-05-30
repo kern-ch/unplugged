@@ -86,14 +86,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/**** Base Header and Footer Styles ****/
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
+   /**** Base Header and Footer Styles ****/
 
 header {
+  padding: 15px 0;
   display: flex;
   justify-content: center;
 }
 
 header .content-wrapper{
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,10 +108,16 @@ header .content-wrapper{
 }
 
 header .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
+header nav {
+  width: 60%;
+}
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -115,6 +128,19 @@ footer {
   align-items: center;
   text-align: center;
 }
+footer h4 {
+  padding: 20px 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
 
 footer .social-icons {
   display: flex;
@@ -128,9 +154,14 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .copywright {
+  padding: 20px 0;
+}
+
 /**** Homepage Main Styles ****/
 
 .hero-area {
+  padding: 50px 0;
   display: flex;
   justify-content: center;
 }
@@ -150,30 +181,68 @@ footer .social-icons p {
 /**** Aside ****/
 
 aside {
+  padding: 50px 0;
   display: flex;
   justify-content: flex-start;
 }
 
+aside h3 {
+  padding: 20px 0;
+}
+
+aside p {
+  padding-bottom: 30px;
+}
+
+
 /**** Features ****/
 
 .features {
+  padding: 50px 0;
+  width: 90%;
   display: flex;
   justify-content: center;
 }
 
+.features h2 {
+  padding-bottom: 60px;
+}
+
+.features p {
+  margin: 0;
+}
 .features .features-items {
+  padding: 30px 0;
+  width: 63%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
 }
 
+.features .fontawsome-icon {
+  padding-bottom: 40px;
+}
 /**** Reviews ****/
 
 .reviews {
+  padding: 50px 0;
   display: flex;
   justify-content: flex-start;
 }
+
+.reviews h2 {
+  padding-bottom: 40px;
+}
+
+.reviews h3 {
+  padding: 20px 0;
+  width: 55%;
+}
+
+/**** Contact ****/
+
+
 
 /**** About Page Main Styles ****/
 
@@ -185,6 +254,9 @@ aside {
 .contact-section {
   display: flex;
   justify-content: center;
+}
+.contact-content p {
+  margin: 0;
 }
 
 /**** Faq Page Main Styles ****/
@@ -199,7 +271,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding-top: 50px;
 }
+
+.faq-page h2 {
+  padding-bottom: 40px;
+}
+
+.faq-content {
+  padding-bottom: 50px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
