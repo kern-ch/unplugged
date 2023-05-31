@@ -506,6 +506,60 @@ aside p {
 
 @media only screen and (min-width: 1200px) {
   /*desktop styles here */
+
+  header {
+    padding: 15px 0;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* hero */
+
+  .hero-area h1 {
+    width: 80%;
+  }
+
+  /* aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+
+  .features h2 {
+    width: 90%;
+  }
+ 
+  .features article {
+    flex-basis: 33%;
+  }
+ 
+  /* reviews */
+
+  .reviews article div {
+    width: 43%;
+  }
+
+  /********* About Page **********/
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+  /******** Faq Page ***********/
+
+  .faq-page h2 {
+    width: 100%;
+  }
 }
 
 @media print,
