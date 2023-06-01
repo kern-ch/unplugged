@@ -139,6 +139,14 @@ p {
 	font-size: .875rem;
   line-height: 18px;
 }
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
  
 address {
  font-style: normal;
@@ -164,6 +172,10 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -235,6 +247,8 @@ footer .copywright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -293,6 +307,8 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -379,9 +395,6 @@ input[type=button] {
 .faq-content h4 {
   line-height: 24px;
 }
-
-/*** Email Imput ***/
-
 
 
 /* ==========================================================================
@@ -480,29 +493,6 @@ input[type=button] {
     margin: 100px 0;
   }
   
-  /* Header */
- 
-  header {
-    padding: 33px 0;
-  }
- 
-  header .content-wrapper {
-      width: 100%;
-      justify-content: space-between;
-  }
- 
-  header nav {
-      width: 20%;
-  }
- 
-  header nav ul {
-    justify-content: space-between;
-  }
- 
-  .header-divider {
-      display: none;
-  }
-
   /* General Styles */
 
   h1 {
@@ -520,7 +510,44 @@ input[type=button] {
     line-height: 30px;
   }
  
+  /* Header */
+ 
+  header {
+    padding: 33px 0;
+  }
+ 
+  header .content-wrapper {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
+  }
+ 
+  header nav {
+      width: 20%;
+  }
+ 
+  header nav ul {
+    justify-content: space-between;
+  }
+ 
+  .header-divider {
+      display: none;
+  }
+  
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
  
   /* Aside */
 
@@ -547,7 +574,7 @@ input[type=button] {
   }
  
   .features .features-item-description {
-      width: 50%;
+      width: 62%;
   }
  
   /* Reviews */
@@ -555,9 +582,19 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
   }
+
+  .reviews h2 {
+    width: 85%;
+  }
     
+  .reviews article figure,
   .reviews article div {
-      width:  49%;       
+    width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
  
   /* Footer */
@@ -673,6 +710,7 @@ input[type=button] {
 
   .hero-area h1 {
     width: 80%;
+    font-size: 3.75rem;
   }
 
   /* aside */
@@ -686,6 +724,11 @@ input[type=button] {
     width: 30%;
   }
 
+  .form-description p {
+    font-size: 1.125em;
+  }
+
+
   /* Features */
 
   .features h2 {
@@ -698,8 +741,16 @@ input[type=button] {
  
   /* reviews */
 
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
   .reviews article div {
-    width: 43%;
+    width: 42%;
+  }
+
+  .reviews article div {
+    width: 42%;
   }
 
   /********* About Page **********/
@@ -707,10 +758,11 @@ input[type=button] {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3rem;
   }
 
-  .mission h2 {
-    font-size: 3rem;
+  .contact-content h4 {
+    font-size: 1.875em;
   }
 
   /******** Faq Page ***********/
