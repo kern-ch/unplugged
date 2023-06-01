@@ -661,8 +661,6 @@ input[type=button] {
 
   /* about page */
 
-  
-
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -672,6 +670,10 @@ input[type=button] {
 
   .mission-content p {
     width: 45%;
+  }
+
+  .map figure {
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -690,7 +692,6 @@ input[type=button] {
 }
  
  
-
 @media only screen and (min-width: 1200px) {
   /*desktop styles here */
 
@@ -744,7 +745,6 @@ input[type=button] {
     font-size: 1.125em;
   }
 
-
   /* Features */
 
   .features h2 {
@@ -770,6 +770,10 @@ input[type=button] {
   }
 
   /********* About Page **********/
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
