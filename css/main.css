@@ -325,6 +325,11 @@ input[type=button] {
   width: 63%;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 .features .features-items {
     display: flex;
   justify-content: center;
@@ -592,6 +597,7 @@ input[type=button] {
   .features .features-item-description {
       width: 62%;
   }
+
  
   /* Reviews */
   .reviews article {
@@ -611,6 +617,7 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+    padding: 0;
   }
  
   /* Footer */
@@ -656,8 +663,6 @@ input[type=button] {
     width: 100%;
     font-size: 3rem;
   }
-
-  
 
   /* about page */
 
