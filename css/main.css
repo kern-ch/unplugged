@@ -732,12 +732,14 @@ input[type=button] {
   /* aside */
 
   aside .content-wrapper {
+    display: flex;
     justify-content: space-around;
   }
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
-    width: 30%;
+    width: 30%;   
+    margin: 0; 
   }
 
   .form-description p {
