@@ -404,7 +404,7 @@ input[type=button] {
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin:0 0 50px 0;
 }
 
 .faq-content h4 {
@@ -656,6 +656,11 @@ input[type=button] {
   .faq-page h2 {
     width: 100%;
     font-size: 3rem;
+  }
+  .faq-page h4,
+  .faq-page p {
+    font-size: .875em;
+    line-height: 1.125;
   }
 
   /* about page */
